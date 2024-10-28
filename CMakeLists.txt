@@ -3,4 +3,6 @@ project(lab6sem1)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(lab6sem1 main.cpp)
+add_executable(lab6sem1 main.cpp
+        functions.h
+        functions.cpp)
